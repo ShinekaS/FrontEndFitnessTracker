@@ -1,0 +1,35 @@
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper{
+    position:relative;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    /* border: 1px solid purple; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header ul li{
+    margin: 0 .4rem;
+}
+header ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius:20px;
+    transition-property: all ease .3s;
+}
