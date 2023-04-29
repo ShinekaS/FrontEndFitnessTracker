@@ -9,7 +9,7 @@ body{
 }
 header{
     width: 100%;
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
     margin: 0 auto;
     display: flex;
     align-items: center;
