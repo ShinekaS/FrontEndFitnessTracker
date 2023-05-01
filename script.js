@@ -1,25 +1,34 @@
-fetch("http://127.0.0.1:3000/")
+
+
+
+fetch("http:localhost:3000/users")
 .then(res => res.json())
 .then(data => {  
     console.log(data); 
 })
 
-fetch("http://127.0.0.1:3000/users")
+fetch("http:localhost:3000/physicalActivities")
+.then(res => res.json())
+.then(data => {  
+    console.log(physicalActivities); 
+    data.forEach(physicalActivities => {
+        const div = document.createElement("div")
+        div.innerHTML = 
+
+    })
+ })
+
+ fetch("http:localhost:3000/physicalActivity")
 .then(res => res.json())
 .then(data => {   
  })
 
- fetch("http://127.0.0.1:3000/physicalActivity")
-.then(res => res.json())
-.then(data => {   
- })
-
- fetch("http://127.0.0.1:3000/nutritionlog")
+ fetch("http:localhost:3000/nutritionlog")
  .then(res => res.json())
  .then(data => {   
   })
 
- fetch("http://127.0.0.1:3000/weight-goals")
+ fetch("http:localhost:3000/weight-goals")
  .then(res => res.json())
  .then(data => {   
   })
